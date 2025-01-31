@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>  <title>Photo Gallery</title>
+<div id="tophead">
+Web Photo Gallery
+</div>
+
+
+ </head>
+<style>
+
+body
+{
+
+text-align:center;
+}
+
+#tophead
+{
+text-align:center;
+font-size:50px;
+color:purple;
+font-family:Arial Black;
+text-transform:uppercase;
+text-shadow:5px 5px 10px yellow;
+}
+
+
+.pic
+{
+width:20%;
+box-shadow:5px 5px 50px cyan;
+border-radius:30px;
+cursor:pointer;
+transition:0.50s;
+margin:70px;
+}
+
+
+.pic:hover
+{
+transform:scale(1.30) rotate(0deg);
+box-shadow:5px 5px 60px magenta;
+}
+
+/*            Media Query           */
+
+/* Extra small devices (phones, 600px and down)  */
+
+@media only screen and (max-width: 600px)
+ {
+
+		  body{background:orange;}
+  			#tophead{font-size:20px;}
+				hr{display:none;}
+				.pic{width:90%;margin:2px;
+				margin-top:15%;
+    }
+
+.pic:hover
+{
+transform:scale(1.05) rotate(0deg);
+box-shadow:5px 5px 60px magenta;
+}
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) 
+{
+  		#tophead{display:none;}
+		body{background:cyan;}
+		hr{display:none;}
+		.pic{width:90%;margin:2px;
+		margin-top:15%;}
+
+		.pic:hover
+			{
+				transform:scale(1.05) rotate(0deg);
+			}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (min-width: 768px) 
+{
+body{background:green;}
+
+  #tophead{display:block;font-size:30px;}
+
+         .pic{width:40%;margin:22px;
+		margin-top:15%;}
+
+
+}
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+		body{background:gray;}
+  		#tophead{font-size:50px;}
+		.pic{width:20%;margin:32px;
+		margin-top:5%;}
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
+body{background:black;}
+  #tophead{font-size:50px;}
+
+
+
+}
+
+
+</style>
+
+<body>
+
+<hr  style="color:yellow;background:yellow;margin-top:100px;margin-bottom:100px"  size="20" />
+
+
+<a href="pf2.html">
+<img   class="pic" src="images/pf2.jpg">
+</a>
+
+<a href="pf3.html">
+<img  class="pic" src="images/pf3.jpg">
+</a>
+
+<a href="pf4.html">
+<img  class="pic" src="images/pf4.jpg">
+</a>
+
+<a href="pf5.html">
+<img  class="pic" src="images/pf5.jpeg">
+</a>
+
+<a href="pf6.html">
+<img  class="pic" src="images/pf6.jpg">
+</a>
+
+<a href="pf7.html">
+<img  class="pic" src="images/pf7.jpg">
+</a>
+
+<a href="pf8.html">
+<img  class="pic" src="images/pf8.jpg">
+</a>
+
+
+
+
+
+</body>
+
+
+
+
+</html>
